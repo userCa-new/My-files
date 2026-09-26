@@ -1,5 +1,5 @@
 # My-files
-Script bash que automatiza a instalação dos meus arquivos.
+Script bash que automatiza a instalação dos meus arquivos, pacotes, etc.
 
 # Link para utilizar:
 ```
