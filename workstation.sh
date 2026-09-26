@@ -21,7 +21,7 @@ install_packages()
 # Flatpak 
 install_flatpak()
 {
-sudo pacman -S flatpak 
+  sudo pacman -S --noconfirm --needed flatpak 
 
   flatpak install flathub org.onlyoffice.desktopeditors -y 
   flatpak install flathub com.super_productivity.SuperProductivity -y
@@ -32,6 +32,7 @@ sudo pacman -S flatpak
   flatpak install flathub org.ferdium.Ferdium -y
   flatpak install flathub org.gimp.GIMP -y
 }
+
 # Others softwares
 install_other()
 {
@@ -55,7 +56,6 @@ database_config()
 
 }
 
-
 # Extra
 extra_config()
 {
@@ -65,8 +65,6 @@ extra_config()
   mkdir /home/$USER/Documents/AppImages/Icons
   mkdir /home/$USER/Documents/Softwares/Icons
 }
-
-
 
 update_arch
 install_packages
