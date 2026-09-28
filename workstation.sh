@@ -53,11 +53,11 @@ install_other()
    wget -c https://www.blender.org/download/release/Blender5.2/blender-5.2.2-linux-x64.tar.xz
    wget -c https://github.com/ankitects/anki/releases/download/26.09.3/anki-26.09.3-linux-x86_64.tar.zst
    wget -c https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.1.4.8/android-studio-quail4-patch1-linux.tar.gz
-   wget -c https://dl.pstmn.io/download/latest/linux_64
+  # wget -c https://dl.pstmn.io/download/latest/linux_64
    wget -c https://github.com/imputnet/helium-linux/releases/download/0.18.1.1/helium-0.18.1.1-x86_64.AppImage
    wget -c https://files.stirlingpdf.com/linux-installer.AppImage
    wget -c https://github.com/audacity/audacity/releases/download/Audacity-4.0.0/audacity-linux-4.0.0-x86_64.AppImage
-   wget -c https://sourceforge.net/projects/qbittorrent/files/latest/download
+  # wget -c https://sourceforge.net/projects/qbittorrent/files/latest/download
 }
 
 # Extra
@@ -74,7 +74,6 @@ update_arch
 install_packages
 install_flatpak
 install_other
-database_config
 extra_config
 
 echo -e "Instalação concluída!"
