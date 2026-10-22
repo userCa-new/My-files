@@ -5,3 +5,8 @@ Script bash que automatiza a instalação dos meus arquivos, pacotes, etc.
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/userCa-new/My-files/main/files-arch.sh)"
 ```
+
+## Ou
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/userCa-new/My-files/main/files-omarchy.sh)"
+```
