@@ -12,12 +12,12 @@ update_arch()
 install_SystemPackages()
 {
    # Languages
-   sudo pacman -S --noconfirm --needed jdk25-openjdk
-   sudo pacman -S --noconfirm --needed php
-   sudo pacman -S --noconfirm --needed python
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash
-   nvm install 24
+  # sudo pacman -S --noconfirm --needed jdk25-openjdk
+  # sudo pacman -S --noconfirm --needed php
+  # sudo pacman -S --noconfirm --needed python
+  # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  # curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.8/install.sh | bash
+  # nvm install 24
 
    # Utils
    sudo pacman -S --noconfirm --needed wget
