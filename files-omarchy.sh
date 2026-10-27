@@ -26,13 +26,14 @@ install_flatpak()
 {
   sudo pacman -S --noconfirm --needed flatpak 
 
+  flatpak install flathub com.bilingify.readest -y
+  flatpak install flathub com.github.wwmm.easyeffects -y
   flatpak install flathub org.ferdium.Ferdium -y
   flatpak install flathub org.gimp.GIMP -y
   flatpak install flathub org.kde.kdenlive -y
   flatpak install flathub com.obsproject.Studio -y
   flatpak install flathub org.onlyoffice.desktopeditors -y 
   flatpak install flathub com.orama_interactive.Pixelorama -y
-  flatpak install flathub com.bilingify.readest -y
   flatpak install flathub com.super_productivity.SuperProductivity -y
 }
 
@@ -67,6 +68,7 @@ extra_folders()
   mkdir /home/$USER/Documents/Softwares
   mkdir /home/$USER/Documents/AppImages/Icons
   mkdir /home/$USER/Documents/Softwares/Icons
+  mkdir /home/$USER/Workspace
 }
 
 update_arch
