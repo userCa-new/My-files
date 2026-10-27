@@ -26,7 +26,6 @@ install_flatpak()
 {
   sudo pacman -S --noconfirm --needed flatpak 
 
-  # flatpak install flathub com.bilingify.readest -y
   flatpak install flathub com.github.wwmm.easyeffects -y
   flatpak install flathub org.ferdium.Ferdium -y
   flatpak install flathub org.gimp.GIMP -y
@@ -54,10 +53,8 @@ install_other()
    
    wget -c https://github.com/ankitects/anki/releases/download/26.09.3/anki-26.09.3-linux-x86_64.tar.zst
    wget -c https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-x86_64.AppImage
-   # wget -c https://www.blender.org/download/release/Blender5.2/blender-5.2.2-linux-x64.tar.xz
-  # wget -c https://github.com/imputnet/helium-linux/releases/download/0.19.4.1/helium-0.19.4.1-x86_64.AppImage
- #  wget -c https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-appimage/qbittorrent-5.2.4/qbittorrent-5.2.4_x86_64.AppImage?ts=gAAAAABq1QodGe21RvUr4yOGexyiTlPQmnOb12RrH8svLEIx0ARg-SxmsYZP-IE4B7Y8ySWWodFEFYK15t7YcqYtaK7a5AdJ_g%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fqbittorrent%2Ffiles%2Flatest%2Fdownload
- #  wget -c https://dist.torproject.org/torbrowser/15.0.25/tor-browser-linux-x86_64-15.0.25.tar.xz
+   wget -c https://www.blender.org/download/release/Blender5.2/blender-5.2.3-linux-x64.tar.xz/
+   wget -c https://dist.torproject.org/torbrowser/15.0.26/tor-browser-linux-x86_64-15.0.26.tar.xz
 }
 
 # Extra
