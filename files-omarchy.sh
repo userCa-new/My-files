@@ -41,7 +41,7 @@ work_station()
    flatpak install flathub app.zen_browser.zen -y
    sudo pacman -S --noconfirm --needed mysql-workbench
    curl -f https://zed.dev/install.sh | sh
-   wget -c https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.1.4.8/android-studio-quail4-patch1-linux.tar.gz
+   wget -c https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.2.1.8/android-studio-rabbit1-linux.tar.gz
 }
 
 # Others softwares
