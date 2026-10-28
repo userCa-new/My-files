@@ -55,6 +55,7 @@ install_other()
    wget -c https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-x86_64.AppImage
    wget -c https://www.blender.org/download/release/Blender5.2/blender-5.2.3-linux-x64.tar.xz/
    wget -c https://dist.torproject.org/torbrowser/15.0.26/tor-browser-linux-x86_64-15.0.26.tar.xz
+   # Postman, qBitorrent
 }
 
 # Extra
